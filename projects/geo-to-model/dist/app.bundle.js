@@ -67222,7 +67222,7 @@ var LoadingGrid = class {
 
 // examples/terrain-builder/src/app.js
 var TOKEN_KEY = "tb.mapboxToken";
-var BUILTIN_TOKEN = "pk.eyJ1IjoiMHEyM3EiLCJhIjoiY21idXNidGJxMGRzazJsczA3azlycms0biJ9.Y04QYYbI2pOBTLwYiG09nw".trim();
+var BUILTIN_TOKEN = "".trim();
 var getStoredToken = () => {
   try {
     return (localStorage.getItem(TOKEN_KEY) || "").trim() || BUILTIN_TOKEN;
